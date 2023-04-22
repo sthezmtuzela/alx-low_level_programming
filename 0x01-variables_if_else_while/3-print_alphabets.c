@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints alphabets in lower and then upper case
- * 
- * Return - Always 0 (Success)
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char alphabets[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";

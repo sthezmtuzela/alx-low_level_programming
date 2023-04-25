@@ -24,12 +24,23 @@ void jack_bauer(void)
 				{
 					printf("0%d\n", min);
 				}
+				else
+				{
+					printf("%d\n", min);
+				}
 			}
 			else
 			{
-				putchar(hours);
-				putchar(':');
-				putchar(min);
+				printf("%d:",hours);
+
+                                if (min >= 0 && min <= 9)
+                                {
+                                        printf("0%d\n", min);
+                                }
+                                else
+                                {
+                                        printf("%d\n", min);
+                                }
 			}
 			min++;
 		}

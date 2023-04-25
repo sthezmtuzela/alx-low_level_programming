@@ -26,6 +26,7 @@ void jack_bauer(void)
 				putchar(hours);
 				putchar(':' + min);
 			}
+			min++;
 		}
 		hours++;
 		putchar('\n');

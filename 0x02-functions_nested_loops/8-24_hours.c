@@ -16,12 +16,12 @@ void jack_bauer(void)
 
 		while (min <= 59)
 		{
-			if (hours >= 0 || hours <= 9)
+			if (hours >= 0 && hours <= 9)
 			{
-				putchar('0');
-				putchar(hours);
-				putchar(':');
-				putchar(min);
+				printf("0%d:%d\n",hours, min);
+				//putchar(hours);
+				//putchar(':');
+				//putchar(min);
 			}
 			else
 			{

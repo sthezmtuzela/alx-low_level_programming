@@ -22,7 +22,7 @@ void jack_bauer(void)
 
 				if (min >= 0 && min <= 9)
 				{
-					printf("0%d", min);
+					printf("0%d\n", min);
 				}
 			}
 			else

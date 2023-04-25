@@ -19,9 +19,9 @@ void jack_bauer(void)
 			if (hours >= 0 && hours <= 9)
 			{
 				printf("0%d:%d\n",hours, min);
-				//putchar(hours);
+				/**putchar(hours);
 				//putchar(':');
-				//putchar(min);
+				//putchar(min);*/
 			}
 			else
 			{

@@ -18,15 +18,19 @@ void jack_bauer(void)
 		{
 			if (hours >= 0 && hours <= 9)
 			{
-				putchar('0' + hours);
-				putchar(':' + min);
+				putchar('0');
+				putchar(hours);
+				putchar(':');
+				putchar(min);
 			}
 			else
 			{
 				putchar(hours);
-				putchar(':' + min);
+				putchar(':');
+				putchar(min);
 			}
 			min++;
+			putchar('\n');
 		}
 		hours++;
 		putchar('\n');

@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *print_alphabet - print alphabet
+ *print_alphabet_x10 - print alphabet
  *
  * Return - void
  */
@@ -13,6 +13,7 @@ void print_alphabet_x10(void)
 	while (num < 10)
 	{
 		char i = 'a';
+
 		while (i <= 'z')
 		{
 			putchar(i);

@@ -3,9 +3,9 @@
 
 /**
  * Main - prints Fizz or Buzz or FizzBuzz.
- * Return: returns 0
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int i;

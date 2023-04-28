@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * Main - prints Fizz or Buzz or FizzBuzz.

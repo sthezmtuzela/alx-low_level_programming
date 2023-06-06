@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 #include <stdlib.h>
 /**
  * _realloc - reallocates a memory block.
